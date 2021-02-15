@@ -1,0 +1,166 @@
+html {
+    height: 100%;
+}
+body{
+	margin:auto;
+	background-color: rgb(0, 0, 0) !important;
+    color: white  !important;
+    font-family: system-ui !important;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 100%; */
+    overflow: hidden;
+}
+
+#home .row {
+    border-radius: 10px; 
+    box-shadow: 2px 2px 7px 3px #0000008c;
+}
+
+#home{
+    width:80%;
+    margin: auto;
+    background-color: black;
+    margin-top: 128px;
+    border-radius: 10px;
+    height: max-content;
+}
+#home button {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#home a{
+    text-decoration: none;
+}
+.left-home{
+    background-image: url(../images/light.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height: 600px;
+    padding: 360px 125px 5px 250px !important;
+    border-radius: 10px;
+}
+
+.right-home{
+    background-repeat: no-repeat;
+    background-size: cover;     
+    height: 600px;
+    background-image: linear-gradient(to right, black, gray);  
+    border-radius: 10px;   
+}
+.d-block {
+    height: 550px;
+}
+.carousel {
+    padding: 25px;
+}
+.carousel-indicators {
+    display: none !important;
+}
+hr {
+    background-color: #ffc1077a;
+}
+
+@media screen and (min-width: 1064px) and (max-width: 1226px) { 
+    .left-home{
+        padding: 390px 60px 5px 190px !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1064px) { 
+    .left-home{
+        padding:400px 40px 5px 30px !important;
+    }
+    #home {
+        width: 95%;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) { 
+    .left-home{
+        padding: 400px 100px 5px 100px !important;
+    }
+    
+    body{
+        overflow-y: scroll;
+    }
+   
+
+}
+
+
+#catalog{
+    width:90%;
+    margin: auto;
+    background-image: linear-gradient(to bottom, gray, black );  
+    margin-top: 160px;
+    border-radius: 10px;
+    height: 500px;
+}
+.catalog-div{
+    margin: 20px;
+    display: -webkit-inline-box;
+    overflow-x: scroll;
+    margin: auto;
+}
+
+#catalog svg {
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+}
+
+#catalog a{
+    color: white;
+}
+
+#catalog a:hover{
+    color: rgba(255, 255, 255, 0.603);
+}
+
+.card{
+    background: transparent !important;
+    margin: 20px;
+    border: 1px solid #ffffff24 !important;
+}
+.card:first-child{
+    margin-left: 0px !important;
+}
+.card img{
+    height: 315px;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.322);
+}
+
+.card-body:hover {
+    background: #ffc107; 
+    color: #0f0f0f;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 0px black;
+    background-image: url(../images/scroll.jpg);
+    background-size: cover;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffc107; 
+  }
